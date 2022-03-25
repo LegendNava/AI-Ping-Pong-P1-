@@ -1,0 +1,28 @@
+.heading {
+    width: 100%;
+    text-align: left;
+}
+
+.heading h2 {
+    display: inline;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+#startg, #statusofg {
+    font-size: 22px;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    background-color: darkslategray;
+    color: white;
+    line-height: 30px;
+}
