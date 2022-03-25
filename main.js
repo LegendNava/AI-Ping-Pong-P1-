@@ -34,7 +34,6 @@ function setup(){
 	video.size(700, 600);
   video.hide();
 
-  image(video, 0, 0, 700, 600);
 	poseNet = ml5.poseNet(video, modelLoaded);
 	poseNet.on('pose', gotPoses);
 }
@@ -43,6 +42,7 @@ function setup(){
 function draw(){
 
  background(0); 
+  image(video, 0, 0, 700, 600);
 
  fill("black");
  stroke("black");
